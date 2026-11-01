@@ -2,6 +2,17 @@
 
 Native C++ rules for observing and denying selected registry writes under application-owned `HKLM\SOFTWARE` branches. A small desktop interface explains the matched rule and calling process.
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Full version and commercial licensing**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Mention **RegistryGuard** and ask about the **full / production version, commercial use or OEM redistribution**.
+>
+> Include your intended use and deployment size to discuss pricing, availability and the appropriate licensing / access instructions.
+<!-- full-version-contact:end -->
+
 **Engineering preview:** application/SDK available; genuine Microsoft altitude allocation, signing and live kernel qualification are pending. No installable driver is published yet.
 
 ![RegistryGuard interface, explicitly synthetic preview](docs/app.png)
