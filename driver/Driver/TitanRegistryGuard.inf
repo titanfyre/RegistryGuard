@@ -1,0 +1,43 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+CatalogFile=TitanRegistryGuard.cat
+DriverVer=10/25/2026,0.1.0.0
+PnpLockdown=1
+[Manufacturer]
+%Provider%=Models,NTamd64.10.0...19041
+[Models.NTamd64.10.0...19041]
+%Device%=Install,ROOT\TitanRegistryGuard
+[DestinationDirs]
+DriverFiles=13
+[SourceDisksNames]
+1=%Disk%
+[SourceDisksFiles]
+TitanRegistryGuard.sys=1
+[Install.NT]
+CopyFiles=DriverFiles
+[DriverFiles]
+TitanRegistryGuard.sys
+[Install.NT.HW]
+AddReg=Security
+[Security]
+HKR,,Security,0,"D:P(A;;GA;;;SY)(A;;GA;;;BA)"
+HKR,,DeviceCharacteristics,0x00010001,0x00000100
+[Install.NT.Services]
+AddService=TitanRegistryGuard,0x00000002,Service
+[Service]
+DisplayName=%Device%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\TitanRegistryGuard.sys
+[Install.NT.Wdf]
+KmdfService=TitanRegistryGuard,Wdf
+[Wdf]
+KmdfLibraryVersion=1.31
+[Strings]
+Provider="Titanfyre"
+Device="RegistryGuard telemetry device"
+Disk="RegistryGuard installation media"
