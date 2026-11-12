@@ -2,20 +2,27 @@
   "project": "RegistryGuard",
   "packages": [
     {
-      "directory": "RegistryGuard-CPP-vcpkg",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "RegistryGuard-CPP-conan",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     },
     {
-      "directory": "RegistryGuard-CPP-nuget",
+      "directory": "packaging/native",
       "central_registry_status": "not_published",
-      "distribution": "GitHub source and downloadable release artifacts"
+      "distribution": "GitHub source and downloadable release artifacts",
+      "source_layout": "Shared native SDK source; registry recipes are kept alongside CMakeLists.txt."
     }
   ],
-  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
+  "native_source_archive": {
+    "url": "https://github.com/titanfyre/RegistryGuard/releases/download/sdk-v0.1.1/registryguard-sdk-0.1.1.tar.gz",
+    "sha256": "d4722de4b46ed9dadc5792ff9ed9777c654f4007ac1f7c4739b7044c631eee37"
+  }
 }
