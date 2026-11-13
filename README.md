@@ -104,24 +104,24 @@ Use this software only on systems you own or are authorized to administer. It is
 
 Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard). Choisis le paquet a installer puis execute sa commande dans son dossier.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `registryguard` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install registryguard:x64-windows` |
-| `registryguard` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=registryguard/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `RegistryGuard.Native` | NuGet | Publie et verifie | `Install-Package RegistryGuard.Native -Version 0.1.1` |
-| `RegistryGuard.SDK` | NuGet | Publie et verifie | `dotnet add package RegistryGuard.SDK --version 1.0.0` |
-| `registryguard` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install registryguard==1.0.0` |
-| `registryguard` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge registryguard` |
-| `registryguard` | crates.io | Publie et verifie | `cargo add registryguard@1.0.0` |
-| `registryguard` | npm | Pas encore disponible / validation en cours | Commande prevue apres publication : `npm install registryguard@1.0.0` |
-| `io.github.titancsa:registryguard` | Maven Central | Publie et verifie | `io.github.titancsa:registryguard:1.0.0 (pom.xml / Gradle)` |
-| `com.github.titanfyre:RegistryGuard` | JitPack | Publie et verifie | `com.github.titanfyre:RegistryGuard:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | Go Modules | Publie et verifie | `go get github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
-| `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
-| `registryguard` | PowerShell Gallery | Publie et verifie | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `registryguard` | pub.dev | Pas encore disponible / validation en cours | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
-| `registryguard` | RubyGems | Publie et verifie | `gem install registryguard -v 1.0.0` |
-| `registryguard` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `registryguard` | `vcpkg install registryguard:x64-windows` |
+| Conan | `registryguard` | `conan install --requires=registryguard/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `RegistryGuard.Native` | `Install-Package RegistryGuard.Native -Version 0.1.1` |
+| NuGet | `RegistryGuard.SDK` | `dotnet add package RegistryGuard.SDK --version 1.0.0` |
+| PyPI | `registryguard` | Commande prevue apres publication : `python -m pip install registryguard==1.0.0` |
+| Conda | `registryguard` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge registryguard` (canal TitanCSA) |
+| crates.io | `registryguard` | `cargo add registryguard@1.0.0` |
+| npm | `registryguard` | Commande prevue apres publication : `npm install registryguard@1.0.0` |
+| Maven Central | `io.github.titancsa:registryguard` | `io.github.titancsa:registryguard:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.titanfyre:RegistryGuard` | `com.github.titanfyre:RegistryGuard:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `go get github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
+| PowerShell Gallery | `registryguard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `registryguard` | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
+| RubyGems | `registryguard` | `gem install registryguard -v 1.0.0` |
+| Packagist | `registryguard` | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
