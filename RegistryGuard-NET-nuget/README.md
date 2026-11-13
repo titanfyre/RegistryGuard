@@ -1,8 +1,6 @@
 # RegistryGuard .NET8 SDK
 
-Package ID `RegistryGuard.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `RegistryGuard.SDK`. ```csharp
 using var client=new TitanCSA.Products.RegistryGuard.Client();
 string statusJson=client.Call("status", "{}");
 ```
