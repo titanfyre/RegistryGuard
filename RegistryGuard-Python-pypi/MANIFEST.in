@@ -1,0 +1,3 @@
+include README.md LICENSE
+recursive-include registryguard *.py *.dll
+recursive-include docs *

@@ -1,0 +1,18 @@
+[build-system]
+requires=["setuptools>=77","wheel>=0.43"]
+build-backend="setuptools.build_meta"
+[project]
+name="registryguard"
+version="1.0.0"
+description="Windows x64 RegistryGuard direct SDK"
+requires-python=">=3.10"
+license="MIT"
+readme="README.md"
+[project.urls]
+Repository="https://github.com/titanfyre/RegistryGuard"
+[tool.setuptools]
+packages=["registryguard"]
+[tool.setuptools.package-data]
+registryguard=["*.dll"]
+[tool.setuptools.data-files]
+"share/registryguard/docs"=["docs/*","LICENSE"]
