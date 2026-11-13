@@ -11,7 +11,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Python/pypi | built_fixture_and_production_verified | registryguard [Source](RegistryGuard-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [registryguard](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [registryguard](https://crates.io/crates/registryguard) [Source](RegistryGuard-Rust-cargo/) |
-| JavaScript/npm | awaiting_browser_publication_authentication | [registryguard](https://www.npmjs.com/package/registryguard) [Source](RegistryGuard-JavaScript-npm/) |
+| JavaScript/npm | registry_publication_requires_action | [registryguard](https://www.npmjs.com/package/registryguard) [Source](RegistryGuard-JavaScript-npm/) |
 | Java/maven | published_install_verified | [registryguard](https://central.sonatype.com/artifact/io.github.titancsa/registryguard/1.0.0) [Source](RegistryGuard-Java-maven/) |
 | Java/jitpack | published_install_verified | [registryguard](https://jitpack.io/#titanfyre/RegistryGuard/java-sdk-v1.0.0) [Source](RegistryGuard-Java-maven/) |
 | Go/modules | published_install_verified | [registryguard](https://pkg.go.dev/github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0) [Source](RegistryGuard-Go-modules/) |
