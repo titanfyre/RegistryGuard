@@ -6,8 +6,8 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | registryguard |
 | CPP/conan | published_custom_source_index | [registryguard](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
-| CPP/nuget | account_email_confirmed_requires_matching_trusted_publishing_policy | RegistryGuard.Native |
-| NET/nuget | built_verified_requires_trusted_publishing_policy | RegistryGuard.SDK [Source](RegistryGuard-NET-nuget/) |
+| CPP/nuget | published_payload_verified | [RegistryGuard.Native](https://www.nuget.org/packages/RegistryGuard.Native/0.1.1) |
+| NET/nuget | published_payload_verified | [RegistryGuard.SDK](https://www.nuget.org/packages/RegistryGuard.SDK/1.0.0) |
 | Python/pypi | built_fixture_and_production_verified | registryguard [Source](RegistryGuard-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [registryguard](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [registryguard](https://crates.io/crates/registryguard) [Source](RegistryGuard-Rust-cargo/) |
