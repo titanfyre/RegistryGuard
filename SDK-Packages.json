@@ -239,13 +239,13 @@
       "api_prefix": "registryguard_json_"
     },
     "Dart/pub-dev": {
-      "status": "built_fixture_and_production_verified",
+      "status": "submitted_requires_public_verification",
       "name": "registryguard",
       "version": "1.0.0",
       "directory": "RegistryGuard-Dart-pub-dev",
       "registry_published": false,
       "documentation_bundled": true,
-      "url": null,
+      "url": "https://pub.dev/packages/registryguard",
       "public_consumer_verified": false,
       "module": "registryguard",
       "dll_name": "RegistryGuardJsonSDK.dll",
