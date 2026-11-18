@@ -110,7 +110,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | PowerShell Gallery | `RegistryGuard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
 | pub.dev | `registryguard` | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
 | RubyGems | `registryguard` | `gem install registryguard -v 1.0.0` |
-| Packagist | `titancsa/registryguard` | Commande prevue apres publication : `composer require titancsa/registryguard:1.0.0` |
+| Packagist | `titancsa/registryguard` | `composer require titancsa/registryguard:1.0.0` |
 
 Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
 
