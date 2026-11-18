@@ -2,17 +2,6 @@
 
 Native C++ rules for observing and denying selected registry writes under application-owned `HKLM\SOFTWARE` branches. A small desktop interface explains the matched rule and calling process.
 
-<!-- full-version-contact:start -->
-> [!IMPORTANT]
-> **Full version and commercial licensing**
->
-> **Discord username: `titancsa`**
->
-> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Mention **RegistryGuard** and ask about the **full / production version, commercial use or OEM redistribution**.
->
-> Include your intended use and deployment size to discuss pricing, availability and the appropriate licensing / access instructions.
-<!-- full-version-contact:end -->
-
 **Engineering preview:** application/SDK available; genuine Microsoft altitude allocation, signing and live kernel qualification are pending. No installable driver is published yet.
 
 ![RegistryGuard interface, explicitly synthetic preview](docs/app.png)
@@ -127,3 +116,16 @@ Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide compl
 
 Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
 <!-- central-sdk-packages:end -->
+
+## Commercial integration and support
+
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Full version and commercial licensing**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Mention **RegistryGuard** and ask about the **full / production version, commercial use or OEM redistribution**.
+>
+> Include your intended use and deployment size to discuss pricing, availability and the appropriate licensing / access instructions.
+<!-- full-version-contact:end -->
