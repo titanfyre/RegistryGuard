@@ -1,5 +1,11 @@
 # RegistryGuard - Windows Kernel Registry Filter SDK
 
+<!-- simple-start:start -->
+Explore rules that control writes to a part of the Windows registry.
+
+**Start here.** Start with the source preview. The live driver is still in development.
+<!-- simple-start:end -->
+
 <!-- full-version-contact:start -->
 > [!IMPORTANT]
 > **Full version and commercial licensing**
@@ -129,5 +135,3 @@ Les anciens imports Go et versions JitPack gardent leurs tags. Pour les ancienne
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
-
-
