@@ -3,7 +3,11 @@
 <!-- simple-start:start -->
 Explore rules that control writes to a part of the Windows registry.
 
-**Start here.** Start with the source preview. The live driver is still in development.
+[First steps](#first-steps) · [Develop](#sdk-and-packages) · [Maintain](https://github.com/TitanCSA/sdk-packages/blob/main/CONTRIBUTING.md)
+
+## First steps
+
+Start with the source preview. The live driver is still in development.
 <!-- simple-start:end -->
 
 <!-- full-version-contact:start -->
@@ -106,32 +110,11 @@ For a scoped integration pilot, OEM redistribution rights, deployment qualificat
 Use this software only on systems you own or are authorized to administer. It is intended for legitimate integration, diagnostics and application policy development. You remain responsible for your deployment and compliance with applicable law. The software is provided without warranty under its applicable license; no guarantee of loss prevention, immunity to bypass or liability exclusion beyond applicable law is made.
 
 <!-- central-sdk-packages:start -->
-## Paquets et installation
+<a name="paquets-et-installation"></a>
 
-Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK dedie](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard). Choisis le paquet a installer puis execute sa commande dans son dossier.
+## SDK and packages
 
-| Registre | Paquet | Installation / utilisation |
-| --- | --- | --- |
-| vcpkg | `registryguard` | `vcpkg install registryguard:x64-windows` |
-| Conan | `registryguard` | `conan install --requires=registryguard/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| NuGet | `RegistryGuard.Native` | `Install-Package RegistryGuard.Native -Version 0.1.1` |
-| NuGet | `RegistryGuard.SDK` | `dotnet add package RegistryGuard.SDK --version 1.0.0` |
-| PyPI | `registryguard` | Commande prevue apres publication : `python -m pip install registryguard==1.0.0` |
-| Conda | `registryguard` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge registryguard` (canal TitanCSA) |
-| crates.io | `registryguard` | `cargo add registryguard@1.0.0` |
-| npm | `registryguard` | Commande prevue apres publication : `npm install registryguard@1.0.0` |
-| Maven Central | `io.github.titancsa:registryguard` | `io.github.titancsa:registryguard:1.0.0 (pom.xml / Gradle)` |
-| JitPack | `com.github.titanfyre:RegistryGuard` | `com.github.titanfyre:RegistryGuard:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| Go Modules | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `go get github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
-| pkg.go.dev | `github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/RegistryGuard/RegistryGuard-Go-modules@v1.0.0` |
-| PowerShell Gallery | `RegistryGuard` | `Install-Module RegistryGuard -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `registryguard` | Commande prevue apres publication : `dart pub add registryguard:1.0.0` |
-| RubyGems | `registryguard` | `gem install registryguard -v 1.0.0` |
-| Packagist | `titancsa/registryguard` | `composer require titancsa/registryguard:1.0.0` |
-
-Pour vcpkg et Conan, configure d abord le registre TitanCSA avec [le guide complet](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard/README.md). Le guide explique aussi Maven/Gradle, les prerequis et le chargement des DLL. Les pilotes/applications du produit sont installes separement. Les commandes marquees prevues ne sont pas encore disponibles.
-
-Les anciens imports Go et versions JitPack gardent leurs tags. Pour les anciennes archives SDK, utilise [les liens de remplacement](https://github.com/TitanCSA/sdk-packages/blob/main/release-assets/URL-MIGRATION.json).
+Choose a language in the [SDK and package guide](https://github.com/TitanCSA/sdk-packages/tree/main/projects/RegistryGuard#readme) for exact install commands and examples. If your example requires a driver or app, install it separately.
 <!-- central-sdk-packages:end -->
 
 ## Commercial integration and support
